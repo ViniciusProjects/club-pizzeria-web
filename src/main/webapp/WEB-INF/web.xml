@@ -10,8 +10,18 @@
 		<description></description>
 		<servlet-class>br.com.clubpizzeria.Pizzas</servlet-class>
 	</servlet>
+	<servlet>
+		<servlet-name>FuncionarioServlet</servlet-name>
+		<display-name>FuncionarioServlet</display-name>
+		<description></description>
+		<servlet-class>br.com.clubpizzeria.FuncionarioServlet</servlet-class>
+	</servlet>
 	<servlet-mapping>
 		<servlet-name>Pizzas</servlet-name>
 		<url-pattern>/Pizzas</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>FuncionarioServlet</servlet-name>
+		<url-pattern>/FuncionarioServlet</url-pattern>
 	</servlet-mapping>
 </web-app>
