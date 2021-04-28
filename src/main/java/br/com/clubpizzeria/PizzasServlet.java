@@ -1,6 +1,9 @@
 package br.com.clubpizzeria;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -16,18 +19,26 @@ public class PizzasServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 	public PizzasServlet() {
-
 		super();
-
 	}
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		Pizza pizza = new Pizza();
-		pizza.setDescricao("Pizza de quatro de queijos");
+		Pizza pizzaQuatroQueijos = new Pizza();
+		pizzaQuatroQueijos.setDescricao("Pizza de quatro de queijos");
+		List<Pizza> pizzas = new ArrayList<>();
+		pizzas.add(pizzaQuatroQueijos);
+
+		Pizza pizzaBauru = new Pizza();
+		pizzaBauru.setDescricao("Pizza de Bauru");
+		pizzas.add(pizzaBauru);
+
+		Pizza pizzaPortuguesa = new Pizza();
+		pizzaPortuguesa.setDescricao("Pizza Portuguesa");
+		pizzas.add(pizzaPortuguesa);
+
 		Gson gson = new Gson();
-		gson.toJson(pizza);
-		String json = gson.toJson(pizza);
+		String json = gson.toJson(pizzas);
 		response.getWriter().write(json);
 	}
 
