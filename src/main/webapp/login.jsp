@@ -18,7 +18,8 @@
 		<input class="login-input" type="text" placeholder="Digite o usuário"/>
 		<label class="login-label">Senha</label>
 		<input class="login-input" type="password" placeholder="Digite a senha"/>
-		<input class="login-button" type="submit" placeholder="Digite a senha"/>
+		<p><a class="login-forgotpwd" href="#">Esqueci minha senha</a></p>
+		<input class="login-button" type="submit"/>
 	</div>
 </body>
 </html>
