@@ -15,7 +15,10 @@
 	<h1>
 		<% out.print(pizza.getDescricao()); %>
 	</h1>
+<<<<<<< HEAD
 	
 	
+=======
+>>>>>>> branch 'develop' of https://github.com/ViniciusProjects/club-pizzeria-web
 </body>
 </html>

@@ -5,6 +5,7 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Login</title>
+<<<<<<< HEAD
 <link rel="stylesheet" type="text/css" href="./css/reset.css">
 <link rel="stylesheet" type="text/css" href="./css/login.css">
 <link rel="stylesheet" type="text/css" href="./css/style.css">
@@ -19,6 +20,16 @@
 		<label class="login-label">Senha</label>
 		<input class="login-input" type="password" placeholder="Digite a senha"/>
 		<input class="login-button" type="submit" placeholder="Digite a senha"/>
+=======
+</head>
+<body>
+	<div>
+		<label>Usuário</label>
+		<input type="text" placeholder="Digite o usuário"/>
+		<label>Senha</label>
+		<input type="text" placeholder="Digite a senha"/>
+		<input type="submit" placeholder="Digite a senha"/>
+>>>>>>> branch 'develop' of https://github.com/ViniciusProjects/club-pizzeria-web
 	</div>
 </body>
 </html>
