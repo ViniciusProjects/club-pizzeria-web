@@ -1,0 +1,26 @@
+.pizzas {
+	margin: auto;
+	display: flex;
+	width: 80%;
+	justify-content: space-around;
+}
+
+@media screen and (min-width: 300px) {
+	.pizzas {
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.pizzas {
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.pizzas {
+		flex-direction: row;
+	}
+}

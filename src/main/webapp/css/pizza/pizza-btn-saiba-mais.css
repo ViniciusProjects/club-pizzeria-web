@@ -1,0 +1,16 @@
+.botao-conferir-pizza {
+	margin: 1rem;
+	border: none;
+	color: #ffffff;
+	background-color: #ff8040;
+	padding: 1rem;
+	transtions: 0.5s;
+	font-size: 1rem;
+	align-self: flex-end;
+	border-radius: 50px;
+}
+
+.botao-conferir-pizza:hover {
+	background-color: #e82015;
+}
+

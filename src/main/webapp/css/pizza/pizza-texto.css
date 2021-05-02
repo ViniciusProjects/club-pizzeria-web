@@ -1,0 +1,24 @@
+.pizza__texto {
+	color: gray;
+	text-align: justify;
+	line-height: 1.5rem;
+}
+
+
+@media screen and (min-width: 300px) {
+	.pizza__texto {
+		font-size: 1rem;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.pizza__texto {
+		font-size: 1.2rem;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.pizza__texto {
+		font-size: 1.2rem;
+	}
+}
